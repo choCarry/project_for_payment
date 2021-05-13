@@ -1,0 +1,54 @@
+@charset "UTF-8";
+table.type09 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+
+}
+table.type09 thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+	width: 30%;
+	cursor:hand;
+}
+table.type09 thead th.sel{
+	background-color: 369;
+	color: #fff; 
+}
+table.type09 tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table.type09 td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	font-size:10px;
+}
+.button {
+    width:100px;
+    background-color: #036;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius:10px;
+}
+.button:hover {
+    background-color: #369;
+}
+
+
